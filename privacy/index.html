@@ -40,6 +40,13 @@
       color: #2c3e50;
     }
 
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      color: #34495e;
+    }
+
     p, li {
       font-size: 1rem;
       margin-bottom: 0.75rem;
@@ -55,6 +62,14 @@
       word-break: break-word;
     }
 
+    .highlight {
+      background-color: #fff3cd;
+      padding: 0.75rem;
+      border-radius: 6px;
+      border-left: 4px solid #ffc107;
+      margin: 1rem 0;
+    }
+
     footer {
       margin-top: 2rem;
       font-size: 0.85rem;
@@ -67,62 +82,120 @@
 
   <div class="container">
     <h1>Privacy Policy for Fisca</h1>
-    <p><strong>Last Updated:</strong> 17/05/2025</p>
+    <p><strong>Last Updated:</strong> 18/07/2025</p>
 
     <h2>Introduction</h2>
-    <p>Welcome to Fisca. This privacy policy explains how we handle information when you use our mobile application. We are committed to protecting your privacy and ensuring you understand how your data is managed.</p>
+    <p>Welcome to Fisca. This privacy policy explains how we collect, use, store, and protect your personal information when you use our mobile application. We are committed to protecting your privacy and being transparent about our data practices.</p>
 
-    <h2>Data Collection and Storage</h2>
-    <p>Fisca does not collect, store, or transmit any personal data to external servers. All of your financial information, expense records, budget settings, and any other data you input into the app is stored exclusively on your device's local storage. We have designed our app with privacy as a priority.</p>
+    <div class="highlight">
+      <p><strong>Important:</strong> Unlike apps that store data locally on your device, Fisca now stores your data on secure cloud servers (Google Firebase) to enable features like data synchronization across devices, backup, and enhanced functionality.</p>
+    </div>
 
-    <h2>Information Stored Locally on Your Device</h2>
-    <p>The following information is stored locally on your device only:</p>
+    <h2>Information We Collect</h2>
+    <p>When you use Fisca, we collect and store the following information:</p>
+
+    <h3>Personal Information You Provide:</h3>
     <ul>
-      <li>Expense and income entries</li>
+      <li>Account information (email address, username, profile picture if provided)</li>
+      <li>Financial transaction data (expense and income entries)</li>
       <li>Budget settings and financial goals</li>
-      <li>Categories and tags you create</li>
-      <li>Reports and financial summaries</li>
-      <li>App settings and preferences</li>
+      <li>Custom categories and tags you create</li>
+      <li>Notes and descriptions related to your transactions</li>
+      <li>Receipt images (if you choose to capture them)</li>
+      <li>App preferences and settings</li>
+    </ul>
+
+    <h3>Automatically Collected Information:</h3>
+    <ul>
+      <li>Device information (device type, operating system, app version)</li>
+      <li>Usage data (app interactions, feature usage patterns)</li>
+      <li>Technical data (IP address, device identifiers)</li>
+      <li>Crash logs and error reports to improve app stability</li>
+    </ul>
+
+    <h2>How We Use Your Information</h2>
+    <p>We use your information for the following purposes:</p>
+    <ul>
+      <li>To provide and maintain the Fisca service</li>
+      <li>To sync your financial data across multiple devices</li>
+      <li>To backup your expense tracking and budget data</li>
+      <li>To send you notifications and reminders (if enabled)</li>
+      <li>To analyze usage patterns and improve our app</li>
+      <li>To provide customer support when needed</li>
+      <li>To detect and prevent technical issues</li>
+    </ul>
+
+    <h2>Data Storage and Security</h2>
+    <p>Your data is stored securely using Google Firebase services, which provides:</p>
+    <ul>
+      <li>Encryption in transit and at rest</li>
+      <li>Regular security updates and monitoring</li>
+      <li>Compliance with international data protection standards</li>
+      <li>Data centers with robust physical security measures</li>
+    </ul>
+    <p>While we implement industry-standard security measures, please note that no method of electronic storage is 100% secure. We cannot guarantee absolute security but are committed to protecting your data using best practices.</p>
+
+    <h2>Data Sharing and Disclosure</h2>
+    <p>We do not sell, trade, or otherwise transfer your personal information to third parties, except in the following circumstances:</p>
+    <ul>
+      <li><strong>Service Providers:</strong> We may share data with trusted service providers (like Google Firebase) who assist in operating our app</li>
+      <li><strong>Legal Requirements:</strong> We may disclose information if required by law or to protect our rights and safety</li>
+      <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets, your information may be transferred</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p>Fisca uses the following third-party services that may collect information:</p>
+    <ul>
+      <li><strong>Google Firebase:</strong> For data storage, authentication, and app analytics. View <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+      <li><strong>RevenueCat:</strong> For in-app purchase management and receipt validation. View <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy Policy</a></li>
     </ul>
 
     <h2>Device Permissions</h2>
-    <p>Our app requires the following permissions to function properly:</p>
+    <p>Our app may request the following permissions:</p>
     <ul>
-      <li><strong>Storage Access:</strong> Required to save your financial data on your device</li>
-      <li><strong>Camera (optional):</strong> Only if you choose to capture receipts or invoices</li>
-      <li><strong>Notifications (optional):</strong> To provide you with budget alerts and reminders that you set</li>
+      <li><strong>Internet Access:</strong> Required to sync data with our servers</li>
+      <li><strong>Storage Access:</strong> For temporary file storage and caching</li>
+      <li><strong>Camera (optional):</strong> If you choose to capture receipts or invoices</li>
+      <li><strong>Notifications:</strong> To send you budget alerts and reminders</li>
     </ul>
 
-    <h2>Data Security</h2>
-    <p>We implement appropriate technical measures to protect your locally stored data. However, please note that you are responsible for maintaining the security of your device and controlling access to it.</p>
+    <h2>Data Retention</h2>
+    <p>We retain your personal information for as long as necessary to provide our services and fulfill the purposes outlined in this policy. You can request deletion of your account and associated data at any time through the app settings or by contacting us.</p>
 
-    <h2>Analytics and Third-Party Services</h2>
-    <p>Our app does not use any third-party analytics tools or services that collect user data. We do not incorporate advertising frameworks or tracking technology.</p>
-
-    <h2>In-App Purchases and RevenueCat</h2>
-    <p>We use RevenueCat for in-app purchase receipt validation. Please be aware:</p>
+    <h2>Your Rights and Choices</h2>
+    <p>You have the following rights regarding your personal information:</p>
     <ul>
-      <li>We do not access, collect, or store your payment information</li>
-      <li>RevenueCat processes only the necessary transaction data required for purchase verification</li>
-      <li>This transaction data is processed according to RevenueCat's privacy policy</li>
-      <li>This processing is limited to validating your purchases and managing subscriptions (if applicable)</li>
+      <li><strong>Access:</strong> You can view and export your data through the app</li>
+      <li><strong>Correction:</strong> You can update your information at any time</li>
+      <li><strong>Deletion:</strong> You can delete your account and all associated data</li>
+      <li><strong>Portability:</strong> You can export your data in a readable format</li>
+      <li><strong>Opt-out:</strong> You can disable notifications and certain data collection features</li>
     </ul>
-    <p>For more information about how RevenueCat handles data, please refer to <a href="https://www.revenuecat.com/privacy " target="_blank">RevenueCat's Privacy Policy</a>.</p>
+
+    <h2>International Data Transfers</h2>
+    <p>Your information may be transferred to and stored on servers located outside your country of residence. We ensure that such transfers comply with applicable data protection laws and that your data receives adequate protection.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Our application is not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13.</p>
+    <p>Our application is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.</p>
 
     <h2>Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.</p>
-
-    <h2>Your Choices</h2>
-    <p>Since all data is stored locally on your device, you have complete control over your information. You can delete any or all data at any time through the app's settings menu. Uninstalling the application will remove all associated data from your device.</p>
+    <p>We may update our Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by:</p>
+    <ul>
+      <li>Posting the updated policy in the app</li>
+      <li>Updating the "Last Updated" date</li>
+      <li>Sending you a notification if the changes are significant</li>
+    </ul>
+    <p>Your continued use of the app after any changes indicates your acceptance of the updated policy.</p>
 
     <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+    <p>If you have any questions about this Privacy Policy, want to exercise your rights, or need to report a privacy concern, please contact us at:</p>
     <ul>
       <li>Email: zephyr.nexus86@gmail.com</li>
+      <li>Response Time: We aim to respond within 48 hours</li>
     </ul>
+
+    <h2>Governing Law</h2>
+    <p>This Privacy Policy is governed by the laws of New South Wales, Australia. Any disputes arising from this policy will be resolved in the courts of New South Wales, Australia.</p>
   </div>
 
   <footer>
